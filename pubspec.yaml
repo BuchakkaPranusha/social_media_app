@@ -1,0 +1,34 @@
+name: social_media_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  google_fonts: ^6.2.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^3.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+  
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: fonts/Poppins-Bold.ttf
+  #       - asset: fonts/Poppins-Medium.ttf
+  #       - asset: fonts/Poppins-Regular.ttf
+
+  uses-material-design: true
+
+
+    
