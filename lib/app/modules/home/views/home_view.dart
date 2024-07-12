@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:social_media_app/helpers/colors.dart';
 
 import '../controllers/home_controller.dart';
 
@@ -49,16 +50,16 @@ class HomeView extends GetView<HomeController> {
                   Align(
                     alignment: AlignmentDirectional.bottomEnd,
                     child: Container(
-                      height: Get.height * 0.8,
+                      height: Get.height * 0.77,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.only(
                               topLeft: Radius.circular(40),
                               topRight: Radius.circular(40)),
-                          color: Colors.grey.shade200),
+                          color: curved_container_color),
                       child: Column(
                         children: [
                           Padding(
-                            padding: EdgeInsets.fromLTRB(24, 60, 24, 16),
+                            padding: EdgeInsets.fromLTRB(24, 60, 24, 0),
                             child: Text(
                               "My name is Catherine. I like dancing in the rain \nand travelling all around the world.",
                               style: GoogleFonts.poppins(
